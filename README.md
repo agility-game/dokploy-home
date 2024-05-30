@@ -8,3 +8,5 @@ Based on "Make Your Dockerfile Dynamic, ARG vs ENV" at https://medium.com/rexven
 Based on "How to Create Custom Nginx Docker Image" at https://anthonylgiles.medium.com/how-to-create-custom-nginx-docker-image-cd02242a2478
 
 Based on "How to setup a Docker Nginx reverse proxy server example" at https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/Docker-Nginx-reverse-proxy-setup-example
+
+Based on "Setup Nginx as a reverse proxy for Google" at https://github.com/kevin-lxh/Reverse-Proxy-for-Google
