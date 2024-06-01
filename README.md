@@ -10,3 +10,5 @@ Based on "How to Create Custom Nginx Docker Image" at https://anthonylgiles.medi
 Based on "How to setup a Docker Nginx reverse proxy server example" at https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/Docker-Nginx-reverse-proxy-setup-example
 
 Based on "Setup Nginx as a reverse proxy for Google" at https://github.com/kevin-lxh/Reverse-Proxy-for-Google
+
+Based on "How To Set Up Nginx Server Blocks (Virtual Hosts) on Ubuntu 16.04" at https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-16-04

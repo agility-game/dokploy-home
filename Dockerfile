@@ -2,7 +2,7 @@ FROM nginx:latest
 COPY index.html /usr/share/nginx/html
 COPY nextjs.html /usr/share/nginx/html
 COPY nginx.conf /etc/nginx/nginx.conf
-# COPY nginx.conf /nix/store/nf658qiqq1scl6g799lmzn22s3igyhv2-nginx-1.24.0/conf/nginx.conf 
+COPY sites-avalable/default /etc/nginx/sites-available/default
 EXPOSE 80
 # CMD ["nginx", "-g", "deamon off;"]
 CMD ["nginx", "-c", "/etc/nginx/nginx.conf", "-g", "daemon off;"]
