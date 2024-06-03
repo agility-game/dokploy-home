@@ -14,3 +14,5 @@ Based on "Setup Nginx as a reverse proxy for Google" at https://github.com/kevin
 Based on "nginx: [emerg] "server" directive is not allowed here in /etc/nginx/nginx.conf:84" at https://www.digitalocean.com/community/questions/nginx-emerg-server-directive-is-not-allowed-here-in-etc-nginx-nginx-conf-84
 
 Based on "How To Set Up Nginx Server Blocks (Virtual Hosts) on Ubuntu 16.04" at https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-16-04
+
+Based on "My Feedback about Nixpacks - an alternative to Buildpacks" at https://www.qovery.com/blog/my-feedback-about-nixpacks-an-alternative-to-buildpacks/
