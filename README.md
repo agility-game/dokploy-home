@@ -22,3 +22,5 @@ Based on "Containerising your apps using Nixpacks" at https://nx1.io/blog-posts/
 Based on "Getting Started with Nix" at https://www.youtube.com/watch?v=xXlCcdPz6Vc
 
 Based on "Nix-powered Docker Containers" at https://www.youtube.com/watch?v=5XY3K8DH55M
+
+Based on "Optimising Docker Layers for better Caching with Nix" at https://grahamc.com/blog/nix-and-layered-docker-images/
