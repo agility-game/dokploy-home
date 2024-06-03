@@ -16,3 +16,5 @@ Based on "nginx: [emerg] "server" directive is not allowed here in /etc/nginx/ng
 Based on "How To Set Up Nginx Server Blocks (Virtual Hosts) on Ubuntu 16.04" at https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-16-04
 
 Based on "My Feedback about Nixpacks - an alternative to Buildpacks" at https://www.qovery.com/blog/my-feedback-about-nixpacks-an-alternative-to-buildpacks/
+
+Based on "Containerising your apps using Nixpacks" at https://nx1.io/blog-posts/containerising-your-apps-using-nixpacks
