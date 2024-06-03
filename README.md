@@ -20,3 +20,5 @@ Based on "My Feedback about Nixpacks - an alternative to Buildpacks" at https://
 Based on "Containerising your apps using Nixpacks" at https://nx1.io/blog-posts/containerising-your-apps-using-nixpacks
 
 Based on "Getting Started with Nix" at https://www.youtube.com/watch?v=xXlCcdPz6Vc
+
+Based on "Nix-powered Docker Containers" at https://www.youtube.com/watch?v=5XY3K8DH55M
