@@ -24,3 +24,5 @@ Based on "Getting Started with Nix" at https://www.youtube.com/watch?v=xXlCcdPz6
 Based on "Nix-powered Docker Containers" at https://www.youtube.com/watch?v=5XY3K8DH55M
 
 Based on "Optimising Docker Layers for better Caching with Nix" at https://grahamc.com/blog/nix-and-layered-docker-images/
+
+**NOTE**: The Docker container, running NGinX, is created by means of the ```flake.nix``` file only.
