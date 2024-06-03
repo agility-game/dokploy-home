@@ -1,8 +1,12 @@
-FROM nginx:latest
-COPY index.html /usr/share/nginx/html
-COPY nextjs.html /usr/share/nginx/html
-COPY nginx.conf /etc/nginx/nginx.conf
-COPY sites-avalable/default /etc/nginx/sites-available/default
+FROM ubuntu:jammy
+
+RUN apt-get -qq update \
+    && apt-get -qq install -y --no-install-recommends \
+        nginx=1.18.0-6ubuntu14.3 \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY html/index.html /var/www/html/index.html
+
 EXPOSE 80
-# CMD ["nginx", "-g", "deamon off;"]
-CMD ["nginx", "-c", "/etc/nginx/nginx.conf", "-g", "daemon off;"]
+
+CMD ["nginx", "-g", "daemon off;"]

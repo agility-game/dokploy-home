@@ -14,3 +14,13 @@ Based on "Setup Nginx as a reverse proxy for Google" at https://github.com/kevin
 Based on "nginx: [emerg] "server" directive is not allowed here in /etc/nginx/nginx.conf:84" at https://www.digitalocean.com/community/questions/nginx-emerg-server-directive-is-not-allowed-here-in-etc-nginx-nginx-conf-84
 
 Based on "How To Set Up Nginx Server Blocks (Virtual Hosts) on Ubuntu 16.04" at https://www.digitalocean.com/community/tutorials/how-to-set-up-nginx-server-blocks-virtual-hosts-on-ubuntu-16-04
+
+Based on "My Feedback about Nixpacks - an alternative to Buildpacks" at https://www.qovery.com/blog/my-feedback-about-nixpacks-an-alternative-to-buildpacks/
+
+Based on "Containerising your apps using Nixpacks" at https://nx1.io/blog-posts/containerising-your-apps-using-nixpacks
+
+Based on "Getting Started with Nix" at https://www.youtube.com/watch?v=xXlCcdPz6Vc
+
+Based on "Nix-powered Docker Containers" at https://www.youtube.com/watch?v=5XY3K8DH55M
+
+Based on "Optimising Docker Layers for better Caching with Nix" at https://grahamc.com/blog/nix-and-layered-docker-images/
