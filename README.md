@@ -25,4 +25,6 @@ Based on "Nix-powered Docker Containers" at https://www.youtube.com/watch?v=5XY3
 
 Based on "Optimising Docker Layers for better Caching with Nix" at https://grahamc.com/blog/nix-and-layered-docker-images/
 
+Based on "Docker and Nix (DockerCon 2023)" at https://www.youtube.com/watch?v=l17oRkhgqHE
+
 **NOTE**: The Docker container, running NGinX, is created by means of the ```flake.nix``` file only.
