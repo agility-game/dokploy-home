@@ -25,7 +25,7 @@
                   #   root ${./html};
                   # }
                   location /foo/ {
-                    proxy_pass http://localhost;
+                    proxy_pass http://app.agility-game.com;
                   }
                   location /bar/ {
                     root ${./html};
