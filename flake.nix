@@ -21,12 +21,15 @@
               http {
                 server {
                   listen ${nginxPort};
-                  location / {
-                    root ${./html};
-                  }
-                  # location /nextjs {
+                  # location / {
                   #   root ${./html};
                   # }
+                  location /foo/ {
+                    proxy_pass http://localhost;
+                  }
+                  location /bar/ {
+                    root ${./html};
+                  }
                 }
               } 
             '';
