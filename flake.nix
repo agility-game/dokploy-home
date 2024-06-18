@@ -25,7 +25,7 @@
                   #   root ${./html};
                   # }
                   location /foo/ {
-                    proxy_pass http://127.0.0.11;
+                    proxy_pass http://localhost;
                   }
                   location /bar/ {
                     root ${./html};
