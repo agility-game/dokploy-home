@@ -25,7 +25,7 @@
                     root ${./html};
                   }
                   location /nextjs {
-                    root ${./nextjs.html};
+                    root ${./html};
                   }
                 }
               } 
