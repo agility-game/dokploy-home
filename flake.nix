@@ -21,12 +21,12 @@
               http {
                 server {
                   listen ${nginxPort};
-                  # location / {
-                  #   root ${./html};
-                  # }
-                  location /index {
+                  location / {
                     root ${./html};
                   }
+                  # location /nextjs {
+                  #   root ${./html};
+                  # }
                 }
               } 
             '';
