@@ -27,9 +27,9 @@
                   # location /foo/ {
                   #   proxy_pass http://app.agility-game.com;
                   # }
-                  # location /bar/ {
-                  #   root ${./html};
-                  # }
+                  location /bar/ {
+                    alias ${./html};
+                  }
                 }
               } 
             '';
