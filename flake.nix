@@ -56,6 +56,8 @@
                 root:x::
                 nginx:x::
               '')
+              (writeTextDir "tmp/nginx_client_body/.placeholder" ''
+              '')
 
               # Workaround: create directories required by Nix
               (writeTextDir "var/cache/nginx/.placeholder" "")
