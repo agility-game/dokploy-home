@@ -21,15 +21,15 @@
               http {
                 server {
                   listen ${nginxPort};
-                  # location / {
-                  #   root ${./html};
-                  # }
+                  location / {
+                    root ${./html};
+                  }
                   # location /foo/ {
                   #   proxy_pass http://app.agility-game.com;
                   # }
-                  location /bar/ {
-                    root ${./html};
-                  }
+                  # location /bar/ {
+                  #   root ${./html};
+                  # }
                 }
               } 
             '';
