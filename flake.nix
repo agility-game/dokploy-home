@@ -13,7 +13,7 @@
       rec {
         dockerImage = 
           pkgs.dockerTools.buildLayeredImage (let
-            nginxPort = "80";
+            nginxPort = "8080";
             nginxConf = pkgs.writeText "nginx.conf" ''
               user nginx nginx;
               daemon off;
