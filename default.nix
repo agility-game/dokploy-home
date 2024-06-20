@@ -1,5 +1,5 @@
 {
-  description = "OpenTechLab Docker Example";
+  description = "Dokploy Home";
 
   inputs = {
     nixpkgs.url = github:NixOS/nixpkgs/nixos-22.11;
@@ -13,7 +13,7 @@
       rec {
         dockerImage = 
           pkgs.dockerTools.buildLayeredImage (let
-            nginxPort = "8080";
+            nginxPort = "80";
             nginxConf = pkgs.writeText "nginx.conf" ''
               user nginx nginx;
               daemon off;
@@ -24,12 +24,6 @@
                   location / {
                     root ${./html};
                   }
-                  # location /foo/ {
-                  #   proxy_pass http://app.agility-game.com;
-                  # }
-                  # location /bar/ {
-                  #   root ${./html};
-                  # }
                 }
               } 
             '';
